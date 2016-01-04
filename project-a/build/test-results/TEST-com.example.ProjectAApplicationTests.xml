@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ProjectAApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-01-04T21:29:34" hostname="LT306CTCHWW1" time="0.002">
+  <properties/>
+  <testcase name="contextLoads" classname="com.example.ProjectAApplicationTests" time="0.002"/>
+  <system-out><![CDATA[15:29:32.669 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.example.ProjectAApplicationTests]
+15:29:32.676 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:29:32.682 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:29:32.693 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.ProjectAApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+15:29:32.716 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@4e410526 declaringClass = 'com.example.ProjectAApplicationTests', classes = '{class com.example.ProjectAApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+15:29:32.725 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.ProjectAApplicationTests]: class path resource [com/example/ProjectAApplicationTests-context.xml] does not exist
+15:29:32.726 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.example.ProjectAApplicationTests]: class path resource [com/example/ProjectAApplicationTestsContext.groovy] does not exist
+15:29:32.726 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.ProjectAApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:29:32.729 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.ProjectAApplicationTests]
+15:29:32.733 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.ProjectAApplicationTests]: using defaults.
+15:29:32.743 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:29:32.750 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:29:32.751 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:29:32.758 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65fe8564, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@176700f7, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@481169bd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@26f5adaf]
+15:29:32.773 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.ProjectAApplicationTests]
+15:29:32.774 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.ProjectAApplicationTests]
+15:29:32.775 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.ProjectAApplicationTests]
+15:29:32.775 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.ProjectAApplicationTests]
+15:29:32.778 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@769ea2a3 testClass = ProjectAApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@75fba97c testClass = ProjectAApplicationTests, locations = '{}', classes = '{class com.example.ProjectAApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+15:29:32.779 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.example.ProjectAApplicationTests]
+15:29:32.779 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.example.ProjectAApplicationTests]
+15:29:32.782 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@769ea2a3 testClass = ProjectAApplicationTests, testInstance = com.example.ProjectAApplicationTests@4173823c, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@75fba97c testClass = ProjectAApplicationTests, locations = '{}', classes = '{class com.example.ProjectAApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+15:29:32.848 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:29:32.849 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:29:32.849 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:29:32.851 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.1.RELEASE)
+
+2016-01-04 15:29:33.123  INFO 6720 --- [    Test worker] com.example.ProjectAApplicationTests     : Starting ProjectAApplicationTests on LT306CTCHWW1 with PID 6720 (C:\Users\jjohnson\workspace\project-a\build\classes\test started by jjohnson in C:\Users\jjohnson\workspace\project-a)
+2016-01-04 15:29:33.124  INFO 6720 --- [    Test worker] com.example.ProjectAApplicationTests     : No active profile set, falling back to default profiles: default
+2016-01-04 15:29:33.185  INFO 6720 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@44e6c955: startup date [Mon Jan 04 15:29:33 CST 2016]; root of context hierarchy
+2016-01-04 15:29:34.560  INFO 6720 --- [    Test worker] com.example.ProjectAApplicationTests     : Started ProjectAApplicationTests in 1.707 seconds (JVM running for 2.78)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
